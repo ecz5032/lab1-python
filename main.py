@@ -5,7 +5,7 @@ if unit == "F" or unit == "f":
   tempC = float(tempC)
   tempF = (tempC -32 ) * 5/9
   print(str(tempC) + "° in Fahrenheit is equivalent to " + str(tempF) + "° Celsius.")
-if unit == "C" or unit == "c":
+elif unit == "C" or unit == "c":
   tempF = temp
   tempF = float(tempF)
   tempC = (tempF *9/5) + 32
